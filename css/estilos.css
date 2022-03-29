@@ -1,0 +1,23 @@
+
+.desplegar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+}
+
+@media screen and (max-width: 800px) {
+    .despliegue_min {
+        display: none;
+        
+    }
+
+    .desplegar, .section{
+        background-color: blue;
+        color: white;
+        
+    }
+
+    .desplegar{
+        font-size: 50px;
+    }
+    
+  }
